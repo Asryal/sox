@@ -1,0 +1,95 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SOX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ILAfBfxuVHEOT3fuYK2b4MPNR6CCZmrj+7h2qabNERg=" name="csrf-token" />
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <meta name="google-site-verification" content="rxjfDF6Uh-iTdJVgzNPwlVrnu9bm6YQOV_KZzl2blzg" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" media="screen" rel="stylesheet" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="/assets/site-334eb5aec6d1f5575f24d2d6b7575491625fd72f274e40880c69c7ec2488373e.css" media="screen" rel="stylesheet" />
+
+</head>
+<body ng-app="app">
+
+<div class="cd-show-addons-modal-wrapper cs-modal-wrapper" style="display: none;">
+  <div id="add-ons-marketplace" class="cd-show-add-ons-modal"></div>
+</div>
+
+<div class="cd-show-addon-details-modal-wrapper cs-modal-wrapper" style="display: none;">
+  <div id="add-on-details-modal" class="cs-addon-dialog"></div>
+</div>
+
+<div class="js-plans-modal-wrapper cd-plans-model cs-modal-wrapper" style="display: none;">
+  <div id="js-plans-listing" class="cd-show-add-ons-modal"></div>
+</div>
+
+<div class="cs-plan-details cs-modal-wrapper" style="display: none;">
+  <div id="plans-details" class="cs-addon-dialog"></div>
+</div>
+
+<div class="cd-alert-wrapper cs-modal-wrapper" style="display: none;">
+  <div class="cd-alert" >
+    <h1>
+      Warning
+    </h1>
+    <p class="cd-alert-message">
+      Something broke. Try again in a minute.
+    </p>
+    <a href="#" class="btn btn-primary c-alert-primary">Done</a>
+    <a href="#" class="btn btn-default c-alert-cancel">Cancel</a>
+  </div>
+</div>
+
+
+<div data-react-class="PagesDropdown" data-react-props="{&quot;page&quot;:{&quot;id&quot;:52538,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;sox&quot;,&quot;created_at&quot;:&quot;2019-02-16T12:38:58.000Z&quot;,&quot;updated_at&quot;:&quot;2019-02-16T12:38:58.000Z&quot;,&quot;title&quot;:&quot;SOX&quot;},&quot;pages&quot;:[{&quot;id&quot;:49392,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;&quot;,&quot;created_at&quot;:&quot;2018-12-02T21:00:38.000Z&quot;,&quot;updated_at&quot;:&quot;2018-12-03T15:10:44.000Z&quot;,&quot;title&quot;:&quot;Asryal&quot;},{&quot;id&quot;:49416,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;natsuki-shrine&quot;,&quot;created_at&quot;:&quot;2018-12-03T16:08:25.000Z&quot;,&quot;updated_at&quot;:&quot;2018-12-03T16:10:32.000Z&quot;,&quot;title&quot;:&quot;Natsuki Shrine&quot;},{&quot;id&quot;:49464,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;no-use&quot;,&quot;created_at&quot;:&quot;2018-12-04T16:51:08.000Z&quot;,&quot;updated_at&quot;:&quot;2018-12-19T21:18:16.000Z&quot;,&quot;title&quot;:&quot;useless&quot;},{&quot;id&quot;:49507,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;osu-maps&quot;,&quot;created_at&quot;:&quot;2018-12-05T15:41:34.000Z&quot;,&quot;updated_at&quot;:&quot;2018-12-05T15:41:34.000Z&quot;,&quot;title&quot;:&quot;Osu! Maps&quot;},{&quot;id&quot;:50029,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;discord-bots&quot;,&quot;created_at&quot;:&quot;2018-12-19T20:58:16.000Z&quot;,&quot;updated_at&quot;:&quot;2018-12-19T20:58:16.000Z&quot;,&quot;title&quot;:&quot;Discord Bots&quot;},{&quot;id&quot;:50031,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;contact&quot;,&quot;created_at&quot;:&quot;2018-12-19T21:11:39.000Z&quot;,&quot;updated_at&quot;:&quot;2018-12-19T21:17:51.000Z&quot;,&quot;title&quot;:&quot;Contact&quot;},{&quot;id&quot;:50253,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;shop&quot;,&quot;created_at&quot;:&quot;2018-12-26T16:04:58.000Z&quot;,&quot;updated_at&quot;:&quot;2018-12-26T16:04:58.000Z&quot;,&quot;title&quot;:&quot;Shop&quot;},{&quot;id&quot;:52538,&quot;site_id&quot;:40503,&quot;path&quot;:&quot;sox&quot;,&quot;created_at&quot;:&quot;2019-02-16T12:38:58.000Z&quot;,&quot;updated_at&quot;:&quot;2019-02-16T12:38:58.000Z&quot;,&quot;title&quot;:&quot;SOX&quot;}],&quot;token&quot;:&quot;ILAfBfxuVHEOT3fuYK2b4MPNR6CCZmrj+7h2qabNERg=&quot;}"></div>
+
+<div class="container-fluid js-panels js-add-panel-dlg js-panels-count-2">
+        <div id="js-panel-234533"
+       data-panel="{&quot;id&quot;:234533,&quot;page_id&quot;:52538,&quot;type&quot;:&quot;gallery3_panel&quot;,&quot;background_image_url&quot;:&quot;https://db33usvig9p6h.cloudfront.net/panels/cover/234533/large_350215_1.jpg&quot;}"
+       class="js-panel panel-container js-removable
+              
+              gallery3-panel">
+    <div class="row">
+  <div data-react-class="Gallery3Panel" data-react-props="{&quot;panel&quot;:{&quot;id&quot;:234533,&quot;page_id&quot;:52538,&quot;type&quot;:&quot;gallery3_panel&quot;,&quot;background_image_url&quot;:&quot;https://db33usvig9p6h.cloudfront.net/panels/cover/234533/large_350215_1.jpg&quot;},&quot;padded&quot;:true}"></div>
+</div>
+
+  </div>
+
+        <div id="js-panel-234535"
+       data-panel="{&quot;id&quot;:234535,&quot;page_id&quot;:52538,&quot;type&quot;:&quot;gallery3_panel&quot;,&quot;background_image_url&quot;:&quot;https://db33usvig9p6h.cloudfront.net/panels/cover/234535/large_350215_1.jpg&quot;}"
+       class="js-panel panel-container js-removable
+              
+              gallery3-panel">
+    <div class="row">
+  <div data-react-class="Gallery3Panel" data-react-props="{&quot;panel&quot;:{&quot;id&quot;:234535,&quot;page_id&quot;:52538,&quot;type&quot;:&quot;gallery3_panel&quot;,&quot;background_image_url&quot;:&quot;https://db33usvig9p6h.cloudfront.net/panels/cover/234535/large_350215_1.jpg&quot;},&quot;padded&quot;:true}"></div>
+</div>
+
+  </div>
+
+</div>
+
+<script type="text/javascript">
+window.Canvas = window.Canvas || {};
+window.Canvas["features"] = ["headers","content","footers","gallery","contact forms","mailing list","login","pages"];
+</script>
+
+
+  <iframe id="site-controls" src="http://canvas.me/menu?loggedIn=true&amp;mode=show&amp;site_id=40503" width="50" height="30" scrolling="no" frameborder="0" style="position: fixed; z-index: 100; width: 150px; top: 0px; right: 0px; border: 0px; background-color: transparent; overflow: hidden;"></iframe>
+
+  <script src="/assets/site-1d87316f667e0079dd7572ca03ff026195144f4f19313fd2af209064efd16919.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js" async="async"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
